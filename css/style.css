@@ -1,0 +1,46 @@
+header,footer{
+    
+    background-color: blue;
+    height: 150px;
+    width: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+.container{
+    display: flex;
+    height: 800px;
+    border-radius: 5px;
+    justify-content: space-between;
+    margin: 5px;
+
+}
+
+article{
+    height: 800px;
+    background-color: lightblue;
+    width: 60%;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    
+    
+}
+nav,aside{
+    
+    height: 800px;
+    width: 20%;
+   
+    border-radius: 5px;
+    background-color: orange;
+}
+nav{
+    order: 1;
+}
+article{
+    order: 2;
+}
+aside{
+    order: 3;
+}
+
